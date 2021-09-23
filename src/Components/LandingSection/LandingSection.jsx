@@ -39,9 +39,9 @@ export const LandingSection = () => {
                         </div>
 
                     </div>
-                    <div className="landing-row2-about us-container">
-                        <p style={{ color: "#FF7A00" }}> ABOUT US</p>
-                        <h3><span style={{ color: "#FF7A00" }}>Know</span> More Us</h3>
+                    <div className="landing-row2-about-us-container">
+                        <p style={{ color: "#FF7A00",fontSize:12 }}> ABOUT US</p>
+                        <h1><span style={{ color: "#FF7A00" }}>Know</span> More Us</h1>
                         <p>Lorem ipsum dolor, sit amet consectetur <span style={{ color: "#FF7A00" }}>AR World</span> adipisicing elit. Eveniet mollitia error, fugiat eius veniam eaque nesciunt ipsum? Maximeimus.</p>
                         <button>Learn More</button>
                     </div>
