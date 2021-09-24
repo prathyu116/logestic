@@ -5,7 +5,9 @@
 }
 body{
   background-image: url('./Assets/background\ -\ spotlight.svg');
+  background-repeat: no-repeat;
   font-family: Poppins;
+  
 
 }
 button{
@@ -20,8 +22,7 @@ button{
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;  margin-top: 20px;
 
 }
 .section-container {
