@@ -7,6 +7,7 @@ body{
   background-image: url('./Assets/background\ -\ spotlight.svg');
   background-repeat: no-repeat;
   font-family: Poppins;
+  overflow-x: hidden;
   
 
 }

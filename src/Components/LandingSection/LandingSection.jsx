@@ -3,7 +3,7 @@ import "./LandingSection.css";
 import spot from './../../Assets/spot - vector.svg';
 import spotman from './../../Assets/spotlight - image - 01.png';
 import moreusimg from './../../Assets/more - us - image.png';
-import bgyellow from './../../Assets/background - thoran.svg';
+import bground from './../../Assets/background - thoran.svg';
 import CommonHeadingSubHeading from '../CommonHeadingSubHeading/CommonHeadingSubHeading';
 export const LandingSection = () => {
 
@@ -33,7 +33,7 @@ export const LandingSection = () => {
                     <div className="landing-row2-img-container">
 
                         <div className="landing-vector">
-                            <img src={bgyellow} alt="vectorimg" className="vector-img" />
+                            <img src={bground} alt="vectorimg" className="vector-img" />
                         </div>
                         <div className="landing-moreus-img">
                             <img src={moreusimg} alt="Image" className="moreus-img" />
@@ -49,7 +49,7 @@ export const LandingSection = () => {
                             text1="ABOUT US" textoange="Know" text2="More Us"
                             text3={["Lorem ipsum dolor,", <span style={{ color: "#FF7A00" }}>AR World</span>, " it amet consectetur adipisicing elit. Eveniet mollitia error, fugiat eius veniam eaque nesciunt ipsum? Maximeimus."]}
                         />
-
+                            <button>Learn More</button>
                     </div>
 
                 </div>

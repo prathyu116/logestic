@@ -1,0 +1,40 @@
+.overview-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+    width: 100%;
+    padding: 0 90px;
+}
+.overview-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+    padding: 20px;
+
+}
+.overview-right{
+    position: relative;
+   
+}
+.overview-bg-img-container{
+    position: absolute;
+    right: 0px;
+  
+    height: 540px;
+    
+   width: 450px;
+    z-index: -10;
+}
+.overview-bg-img-container img{
+    height: 100%;
+}
+.overview-leadership-img{
+    height: 400px;
+}
+.overview-leadership-img img{
+    height: 100%;
+}
