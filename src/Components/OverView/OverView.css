@@ -6,6 +6,8 @@
     margin-top: 100px;
     width: 100%;
     padding: 0 90px;
+    position: relative;
+
 }
 .overview-left{
     display: flex;
@@ -16,10 +18,10 @@
     padding: 20px;
 
 }
-.overview-right{
+/* .overview-right{
     position: relative;
    
-}
+} */
 .overview-bg-img-container{
     position: absolute;
     right: 0px;
