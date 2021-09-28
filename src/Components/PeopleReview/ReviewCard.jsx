@@ -19,8 +19,8 @@ const ReviewCard = (props) => {
            
             <div className="reviw-footer">
                 <div className="name-position">
-                    <h4 style={{textAlign:"left"}}>{props.name}</h4>
-                    <p>{props.position}</p>
+                    <h4 style={{textAlign:"left",color:"#080133"}}>{props.name}</h4>
+                    <p  style={{fontSize:15,color:"gray"}}>{props.position}</p>
 
                 </div>
                 <div className="rating-star">

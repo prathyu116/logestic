@@ -3,6 +3,10 @@ import CommonHeadingSubHeading from '../CommonHeadingSubHeading/CommonHeadingSub
 import searchBG from '../../Assets/background - work for us.png'
 import uploadIMG from '../../Assets/Icon feather-upload.png'
 import person1 from '../../Assets/person 1.jpg'
+import person2 from '../../Assets/person 2.jpg'
+import person3 from '../../Assets/person 3.jpg'
+import bground from './../../Assets/background - thoran.svg';
+
 import './PeopleReview.css'
 import ReviewCard from './ReviewCard';
 const PeopleReview = () => {
@@ -17,9 +21,23 @@ const PeopleReview = () => {
 
              </div>
              <div className="review-card-container">
+             <div className="card-bg-img-container">
+                    <img src={bground} alt="image" />
+
+                </div>
                  <ReviewCard src={person1} info=" unknown printer took a galley of type and scrambled it to make a type specimen book"
                  name="Angella"
                  position="CEO of Babil LTD"
+                 
+                 />
+                 <ReviewCard src={person2} info=" unknown printer took a galley of type and scrambled it to make a type specimen book"
+                 name="Ashwathy"
+                 position="JOBI Company"
+                 
+                 />
+                 <ReviewCard src={person3} info=" unknown printer took a galley of type and scrambled it to make a type specimen book"
+                 name="Snaha"
+                 position="MAHIL LTD"
                  
                  />
 
