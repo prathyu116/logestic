@@ -8,6 +8,7 @@ body{
   background-repeat: no-repeat;
   font-family: Poppins;
   overflow-x: hidden;
+  height: 100vh;
   
 
 }
@@ -25,7 +26,4 @@ button{
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;  margin-top: 20px;
 
-}
-.section-container {
-  
 }

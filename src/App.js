@@ -1,4 +1,5 @@
 import './App.css';
+import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import { LandingSection } from './Components/LandingSection/LandingSection';
 import Location from './Components/Location/Location';
@@ -9,13 +10,14 @@ import ServiceComponent from './Components/ServiceComponent/ServiceComponent';
 function App() {
   return (
     <>
-      <div className="section-container">
+      <div >
         <Header />
         <LandingSection/>
         <ServiceComponent />
         <OverView />
         <Location />
         <PeopleReview />
+        <Footer />
       </div>
     </>
   );
